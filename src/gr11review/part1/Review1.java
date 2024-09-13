@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package gr11review.part1;
 
 import java.io.*;
@@ -17,13 +16,9 @@ public class Review1 {
         System.out.print("Enter the day number: ");
         intDayNumber = Integer.parseInt(keyboard.readLine());
         
-        intMonthNumber = intMonthNumber - 1;
-        for (int i = 0; i < intMonthNumber; i++) {
+        for (int i = 0; i < intMonthNumber - 1; i++) {
             intAnswer = intAnswer + monthDays[i];
         }
         System.out.println(intAnswer+intDayNumber);
     }
 }
-=======
-package gr11review.part1;
->>>>>>> 7c81859da8754089e151190cb6e1bf62d6c6beaf
