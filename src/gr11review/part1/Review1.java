@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package gr11review.part1;
 
 import java.io.*;
@@ -23,3 +24,6 @@ public class Review1 {
         System.out.println(intAnswer+intDayNumber);
     }
 }
+=======
+package gr11review.part1;
+>>>>>>> 7c81859da8754089e151190cb6e1bf62d6c6beaf
