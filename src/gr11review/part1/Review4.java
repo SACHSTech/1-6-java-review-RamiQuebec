@@ -20,9 +20,9 @@ public class Review4 {
 
         dblTax = dblSubtotal * 0.13;
         dblTotal = dblSubtotal + dblTax;
-        DecimalFormat format = new DecimalFormat("##.00");
+        DecimalFormat format = new DecimalFormat("#0.00");
 
-        System.out.println("Subtotal: " + "$" + dblSubtotal);
+        System.out.println("Subtotal: " + "$" + format.format(dblSubtotal));
         System.out.println("Tax: " + "$" + format.format(dblTax));
         System.out.println("Total: " + "$" + format.format(dblTotal));
     }

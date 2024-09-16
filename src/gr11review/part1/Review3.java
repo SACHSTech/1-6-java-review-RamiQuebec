@@ -8,9 +8,9 @@ public class Review3 {
                 System.out.println(i);
             }
         }
-
+        System.out.println("");
         for (int i = 29; i > 0; i--) {
-            if (i % 2 == 1) {
+            if (i != 1) {
                 System.out.println(i);
             }
         }
