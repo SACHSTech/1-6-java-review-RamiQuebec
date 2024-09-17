@@ -25,6 +25,12 @@ public class Review7 {
         System.out.println("There are " + theSentence.length() + " characters in the sentence.");  
         System.out.println("There are " + intSpaces + " spaces in the sentence.");  
         System.out.println("There are " + intaCount + " letter a in the sentence.");  
-
+        for (int i = 0; i < theSentence.length() + 1; i++) {
+            if (i % 2 == 1) {
+                System.out.print("-");
+            }
+        }
+        
+        System.out.println("");
     }
 }
