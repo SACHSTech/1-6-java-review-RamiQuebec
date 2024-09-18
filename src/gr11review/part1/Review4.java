@@ -3,7 +3,7 @@ import java.io.*;
 import java.text.DecimalFormat;
 
 /**
-* A program to calculate total cost w/ tax from user input on items and their cost
+* A program to calculate total cost w/ tax from user input on items and their cost, displays to user using decimal format
 * @author: Rami Kabak
 *
 */

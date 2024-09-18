@@ -2,7 +2,7 @@ package gr11review.part1;
 import java.io.*;
 
 /**
-* A program to calculate how long it will take for an invesdtment to reach a target amount
+* A program to calculate how long it will take for an investment to reach a target amount
 * @author: Rami Kabak
 *
 */
@@ -25,10 +25,10 @@ public class Review5 {
         System.out.print("Enter the target amount: ");
         dblTargetAmount = Double.parseDouble(keyboard.readLine());
 
-        // While loop increasing years until the amount reaches the target amount.
+        // While loop increasing years until the amount reaches the target amount
         while (dblTargetAmount > dblTotalAmount) {
             dblTotalAmount = dblTotalAmount + dblYearlyAmount;
-            dblTotalAmount = dblTotalAmount + (dblTotalAmount * (dblCompoundInterestRate/100));
+            dblTotalAmount = dblTotalAmount + (dblTotalAmount * (dblCompoundInterestRate / 100));
             intYear = intYear + 1;
         }
 

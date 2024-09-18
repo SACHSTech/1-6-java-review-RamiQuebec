@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 /**
 * A program to calculate total cost w/ tax from user input on items and their cost but it asks
-* for an infinite number of items' costs until input of 0 is given
+* for an infinite number of items' costs until input of 0 is given, displays to user using decimal format
 * @author: Rami Kabak
 *
 */

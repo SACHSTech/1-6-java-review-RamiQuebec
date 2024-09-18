@@ -23,7 +23,7 @@ public class Review8 {
             intPull2 = random.nextInt(9);
             intPull3 = random.nextInt(9);
             System.out.println(intPull1 + " " + intPull2 + " " + intPull3);
-            if (intPull1 == intPull2 && intPull1 == intPull3 && intPull2 == intPull3){
+            if (intPull1 == intPull2 && intPull1 == intPull3){
                 intTriplePull++;
             }
         }

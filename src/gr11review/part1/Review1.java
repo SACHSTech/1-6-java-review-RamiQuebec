@@ -13,7 +13,7 @@ public class Review1 {
         int intMonthNumber;
         int intDayNumber;
         int intAnswer = 0;
-        int[] monthDays = {31,28,31,30,31,30,31,31,30,31,30,31};
+        int[] monthDays = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
         // User input for # of months & days
@@ -28,6 +28,6 @@ public class Review1 {
         }
 
         // Print total # of days
-        System.out.println(intAnswer+intDayNumber);
+        System.out.println(intAnswer + intDayNumber);
     }
 }
